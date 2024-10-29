@@ -1,22 +1,28 @@
-FIFA Soccer Database and Web Interface
+FIFA Soccer Database and Web Interface:
+
 A Python, SQLAlchemy, and Flask project for managing and querying FIFA soccer data, including player, club, and competition information.
 
-About
+About:
+
 This project creates a database backend and web interface to manage and query soccer records. The database parses JSON files with player, club, and competition details. Users can add favorite players and clubs through the interface, updating the SQLAlchemy database on the backend.
 
-Installation
+Installation:
+
 Clone the repository:
 git clone https://github.com/username/futbol.DB.git
 
 Set up a virtual environment:
+
 python -m venv venv
 cd venv
 source Scripts/activate  # `source bin/activate` on macOS/Linux
 
 Install dependencies:
+
 pip install flask flask-wtf SQLAlchemy
 
 Import SQLAlchemy in your Python environment:
+
 import sqlalchemy
 
 Usage
