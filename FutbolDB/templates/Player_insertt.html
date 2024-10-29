@@ -1,0 +1,44 @@
+{% extends "Project_simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+   <div>
+      {{form.playName.label}}
+      <span class="error">{{ form.playName.errors | join("|") }}</span>
+      <br />
+      {{form.playName}}
+   </div>
+   <div>
+      {{form.position.label}}
+      <span class="error">{{ form.position.errors | join("|") }}</span>
+      <br />
+      {{form.position}}
+   </div>
+   <div>
+    {{form.num.label}}
+    <span class="error">{{ form.num.errors | join("|") }}</span>
+    <br />
+    {{form.num}}
+   </div>
+   <div>
+    {{form.age.label}}
+    <span class="error">{{ form.age.errors | join("|") }}</span>
+    <br />
+    {{form.age}}
+   </div>
+   <div>
+    {{form.Club_id.label}}
+    <span class="error">{{ form.Club_id.errors | join("|") }}</span>
+    <br />
+    {{form.Club_id}}
+   </div>
+   <!-- SUBMIT -->
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% endblock content %}

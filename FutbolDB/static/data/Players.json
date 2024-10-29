@@ -1,0 +1,55 @@
+{
+    "football_players": [
+        {
+            "club_id": "MU",
+            "player_name": "Aaron Wan-Bissaka",
+            "player_pos": "RB",
+            "player_num": "#29",
+            "player_age": 26
+            
+        },
+        {
+            "club_id": "MC",
+            "player_name": "Kevin De Bruyne",
+            "player_pos": "CAM",
+            "player_num": "#17",
+            "player_age": 32
+        },
+        {
+            "club_id": "COYS",
+            "player_name": "Son Heung-min",
+            "player_pos": "LW",
+            "player_num": "#7",
+            "player_age": 31
+        },
+        {
+            "club_id": "BVB",
+            "player_name": "Karim Adeyemi",
+            "player_pos": "ST",
+            "player_num": "#27",
+            "player_age": 21
+        },
+        {
+            "club_id": "CPFC",
+            "player_name": "Eberechi Eze",
+            "player_pos": "CAM",
+            "player_num": "#10",
+            "player_age": 25
+        },
+        {
+            "club_id": "RM",
+            "player_name": "Jude Bellingham",
+            "player_pos": "CAM",
+            "player_num": "#5",
+            "player_age": 20
+        },
+        {
+            "club_id": "SCN",
+            "player_name": "Victor Osimhen",
+            "player_pos": "ST",
+            "player_num": "#9",
+            "player_age": 24
+        }
+        
+    ]
+    }

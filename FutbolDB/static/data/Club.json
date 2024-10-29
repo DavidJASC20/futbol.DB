@@ -1,0 +1,53 @@
+{
+    "football_clubs": [
+        {
+            "club_id": "MU",
+            "club_name": "Manchester United",
+            "club_badge": "Red Devil",
+            "city": "North Manchester",
+            "country": "England"
+        },
+        {
+            "club_id": "MC",
+            "club_name": "Manchester City",
+            "club_badge": "Boat",
+            "city": "East Manchester",
+            "country": "England"
+        },
+        {
+            "club_id": "COYS",
+            "club_name": "Tottenham Hotspur F.C.",
+            "club_badge": "Cockerel",
+            "city": "North London",
+            "country": "England"
+        },
+        {
+            "club_id": "BVB",
+            "club_name": "Borussia Dortmund",
+            "club_badge": "BVB Vector",
+            "city": "Dortmund",
+            "country": "Germany"
+        },
+        {
+            "club_id": "CPFC",
+            "club_name": "Crystal Palace F.C.",
+            "club_badge": "Eagle",
+            "city": "South London",
+            "country": "England"
+        },
+        {
+            "club_id": "RM",
+            "club_name": "Real Madrid",
+            "club_badge": "MCF Crown",
+            "city": "Madrid",
+            "country": "Spain"
+        },
+        {
+            "club_id": "SCN",
+            "club_name": "SSC Napoli",
+            "club_badge": "N",
+            "city": "Naples",
+            "country": "Italy"
+        }
+    ]
+    }

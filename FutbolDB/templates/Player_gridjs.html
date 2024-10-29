@@ -1,0 +1,37 @@
+{% extends "Player_gridjs_layout.html" %}
+
+{% block title %} {{title}} {% endblock title %}
+{% block header %} {{header}} {% endblock header %}
+
+{% block content %}
+
+<h2>Player Gridjs Datatable</h2>
+
+<div id="target"></div>
+
+<!-- https://www.youtube.com/watch?v=OAmNx9GmsGM -->
+
+<!-- <script>
+   new gridjs.Grid({
+      columns: ['Name', 'Email'],
+      data: [
+         ['John', 'john@example.com'],
+         ['Mike', 'mike@gmail.com']
+      ]
+   }).render(document.getElementById('target'));
+</script> -->
+
+
+<div id="target2"></div>
+
+<script>
+   new gridjs.Grid({
+      columns: {{ columns|safe }},
+      data: {{ data|safe }},
+      pagination: true, 
+      sort: true,
+      search: true
+   }).render(document.getElementById('target2'));
+</script>
+
+{% endblock content %}

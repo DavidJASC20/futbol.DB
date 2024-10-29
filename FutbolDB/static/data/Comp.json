@@ -1,0 +1,39 @@
+{
+    "football_comp": [
+        {
+            "comp_name": "Champions League",
+            "most_wins": "Real Madrid"
+            
+        },
+        {
+            "comp_name": "Europa League",
+            "most_wins": "Sevilla"
+            
+        },
+        {
+            "comp_name": "Confernece League",
+            "most_wins": "Roma & West Ham"
+            
+        },
+        {
+            "comp_name": "Premier League",
+            "most_wins": "Manchester United"
+            
+        },
+        {
+            "comp_name": "La Liga",
+            "most_wins": "Real Madrid"
+            
+        },
+        {
+            "comp_name": "Bundesliga",
+            "most_wins": "Bayern Munich"
+            
+        },
+        {
+            "comp_name": "Serie A",
+            "most_wins": "Juventus"
+
+        }
+    ]
+}
