@@ -1,38 +1,68 @@
-FIFA Soccer Database and Web Interface:
+# ⚽ FIFA Soccer Database & Web Interface
 
-A Python, SQLAlchemy, and Flask project for managing and querying FIFA soccer data, including player, club, and competition information.
+A backend-focused project built with **Python**, **SQLAlchemy**, and **Flask** for managing and querying FIFA soccer data, including players, clubs, and competitions.
 
-About:
+---
 
-This project creates a database backend and web interface to manage and query soccer records. The database parses JSON files with player, club, and competition details. Users can add favorite players and clubs through the interface, updating the SQLAlchemy database on the backend.
+## 📌 Overview
 
-Installation:
+This project implements a relational database and web interface to manage FIFA soccer records.  
+Structured JSON files are parsed and persisted using SQLAlchemy, allowing users to query data and manage favorite players and clubs through a Flask-based interface.
 
-Clone the repository:
-git clone https://github.com/username/futbol.DB.git
+---
 
-Set up a virtual environment:
+## 📊 Features
+
+- Parses structured JSON data containing player, club, and competition information
+- Implements a relational database using SQLAlchemy ORM
+- Provides Flask routes for viewing and managing soccer records
+- Allows users to add favorite players and clubs, persisting selections to the database
+- Supports console-based querying for backend data analysis
+
+---
+
+## 🧠 Tech Stack
+
+- **Python**
+- **Flask** – Web framework
+- **SQLAlchemy** – ORM and database modeling
+- **SQLite** – Local relational database
+- **JSON** – Data source format
+
+---
+
+## 📂 Project Structure
+
+- `Project_load.py` – Initializes the database and loads JSON data into tables
+- `Project_routes.py` – Defines Flask routes and launches the web interface
+- `Project_query.py` – Executes database queries and outputs results to the console
+
+---
+
+## ▶️ Installation & Setup
+
+```bash
+1. Clone the repository:
+
+git clone https://github.com/DavidJASC20/futbol.DB.git
+
+2. Create and activate a virtual environment:
 
 python -m venv venv
-cd venv
-source Scripts/activate  # `source bin/activate` on macOS/Linux
+source venv/Scripts/activate   # Windows
+# source venv/bin/activate     # macOS/Linux
 
-Install dependencies:
+3. Install dependencies:
 
 pip install flask flask-wtf SQLAlchemy
 
-Import SQLAlchemy in your Python environment:
+▶️ Running the Project
 
-import sqlalchemy
+1. Initialize and load the database:
+python Project_load.py
 
-Usage
-To use this project:
+2. Launch the Flask web interface:
+python Project_routes.py
 
-Run Project_load.py to initialize and load the database.
-Run Project_routes.py, which creates a web link for easy access (Ctrl+Click the link in your console to open).
-Use Project_query.py to run queries on the database tables, with output returned to the console.
-
-Technologies:
-Python - Programming language
-SQLAlchemy - ORM
-Flask - Web framework
+3. Run database queries:
+python Project_query.py
